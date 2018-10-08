@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/club
+    username: admin
+    password: admin123
+  jpa:
+    show-sql: true
+    propierties:
+       hibernate:
+          dialect: org.hibernate.dialect.MariaDB53Dialect
+    hibernate:
+       ddl-auto: update
